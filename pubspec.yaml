@@ -1,0 +1,40 @@
+name: log_book
+description: >-
+  An app which demonstrates how to use Couchbase Lite in a Flutter app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  cbl: ^0.5.1
+  cbl_data:
+    git:
+      url: https://github.com/cofu-app/cbl-dart
+      ref: feat/cbl_data
+      path: packages/cbl_data
+  cbl_flutter: ^0.3.1+1
+  collection: ^1.15.0
+  path_provider: ^2.0.1
+  meta: ^1.3.0
+  built_collection: ^5.0.0
+  built_value: ^8.0.5
+  faker: ^2.0.0-rc.2
+  provider: ^5.0.0
+  timeago: ^3.0.2
+  intl: ^0.17.0
+  logging: ^1.0.1
+
+dev_dependencies:
+  build_runner: ^1.12.2
+  built_value_generator: ^8.0.5
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.11.0
+
+flutter:
+  uses-material-design: true
